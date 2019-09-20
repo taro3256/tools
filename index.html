@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="tanni.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>卒業単位チェック</title>
+</head>
+
+<body>
+    <h1>28年度入学者(ソフト)向け</h1>
+    <p>※必修科目は全て取得しているものとする</p>
+    <p>※全ての欄に入力してください</p>
+    <p>※履修中単位も含めて入力してください</p>
+    <p>※「外国語自由聴講科目」と３年次の「プロジェクト科目」は卒業単位に含まれないので除いて計算してください</p>
+    <p>※汚いコードを見てはいけません</p>
+
+    <br>
+    <form id="form">
+        <div>成績ページのhtmlファイルを選択してください<input name="file" type="file" id="file" onchange="readFile();" /></div>
+    </form>
+    <input type="button" value="単位を計算する" onclick="math();">
+    <br>
+    <h2>ファイル送信方法</h2>
+    <img width="500px" src="img1.png"><br>
+    <p>(１) 成績ページで「ctrl+S」を押す</p>
+    <img width="500px" src="img2.png"><br>
+    <p>(２) そのまま保存してファイル選択する</p>
+
+    <h2>基礎教育科目</h2>
+    <p>英語</p>
+    <input type="number" id="i0">
+    <p>情報処理</p>
+    <input type="number" id="i1">
+    <p>入門演習</p>
+    <input type="number" id="i2">
+    <p>地域学習</p>
+    <input type="number" id="i3">
+    <p>領域科目</p>
+    <input type="number" id="i4">
+    <p>テーマ科目</p>
+    <input type="number" id="i5">
+    <p>プロジェクト科目</p>
+    <input type="number" id="i6">
+    <p>保健体育</p>
+    <input type="number" id="i7">
+    <p>外国語</p>
+    <input type="number" id="i8">
+    <p>外国語自由聴講科目</p>
+    <input type="number" id="i9">
+    <h2>専門科目</h2>
+    <p>専門基礎科目</p>
+    <input type="number" id="i10">
+    <p>キャリア学習科目</p>
+    <input type="number" id="i11">
+    <p>専門共通科目</p>
+    <input type="number" id="i12">
+    <p>展開科目</p>
+    <input type="number" id="i13">
+    <p>関連科目</p>
+    <input type="number" id="i14">
+    <p>研究科目</p>
+    <input type="number" id="i15">
+    <br>
+    <input type="button" value="単位を計算する" onclick="math();">
+</body>
+
+</html>

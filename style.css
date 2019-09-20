@@ -1,0 +1,21 @@
+input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+button {
+    border:solid 1px #ccc;
+    padding:15px 30px;
+    margin:0 0 20px;
+    font-family:Arial, sans-serif;
+    font-size:1.2em;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#333;
+    cursor:pointer;
+}
+
+div {
+    color: blue;
+}
