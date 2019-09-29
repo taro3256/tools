@@ -1,2 +1,2 @@
-単位チェッカー  
+ipusoft2020単位チェッカー  
 https://taro3256.github.io/tanni-check/
